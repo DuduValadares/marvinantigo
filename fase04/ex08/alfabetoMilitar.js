@@ -1,4 +1,5 @@
 function alfabetoMilitar(vogal) {
+    vogal=vogal.toLowerCase();
     if (vogal == "a")
         return "alpha";
     if (vogal == "e")
@@ -10,5 +11,5 @@ function alfabetoMilitar(vogal) {
     if (vogal == "u")
         return "uniform";
     else
-        return false
+        return false;
     }
