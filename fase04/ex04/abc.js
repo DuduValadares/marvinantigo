@@ -1,5 +1,8 @@
 function abc(str) {
-    if (str==="a"||str==="b"||str==="c")
-        return true
+    str === str.toLowerCase();
+    var x = str.slice(0,1);
+    if (x==="a"||x==="b"||x==="c")
+        return true;
     else
-        return false}
+        return false;
+        }
