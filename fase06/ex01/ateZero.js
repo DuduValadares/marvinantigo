@@ -5,6 +5,6 @@ function ateZero(num) {
         x.push(i);
     if (num < 0)
         for (i = num; i <= 0; i++)
-        x.push(i)
+        x.push(i);
     console.log(x);
     }
