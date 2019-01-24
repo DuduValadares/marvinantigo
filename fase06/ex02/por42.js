@@ -1,7 +1,10 @@
-function por42(num1,num2) {
-    for (i = num1; i <= num2; i++)
-        if (i % 42 && i != 42)
-            return i;
-        else
-            console.log("Não encontrado");
+function por42(x, y) {
+    x=(Math.ceil(x/42+1)*42);
+    if (x<=y){
+    return x;
     }
+    else{ 
+        return ("Não encontrado");
+
+}
+}
