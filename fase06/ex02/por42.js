@@ -3,8 +3,9 @@ function por42(x, y) {
     if (x<=y){
     return x;
     }
-    else{ 
-        return ("Não encontrado");
+    else{
+        console.log("NÃ£o encontrado");
+        return false
 
-}
+    }
 }
