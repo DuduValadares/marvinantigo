@@ -14,4 +14,3 @@ function inverter(arrstr) {
         return arr;
     }
 }
-console.log(inverter([1,2,3,4,5]))
