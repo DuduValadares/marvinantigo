@@ -6,7 +6,15 @@ function precoMedio() {
         arraydeobjetos.push(arguments[i])
         arraydeprecos.push(arguments[i].preco)
         }
-    var maiorpreco = arraydeprecos.sort().slice(-1,arraydeprecos.length)
+        
+    function compare(a,b) {
+        if (a < b)
+            return -1
+        if (a > b)
+            return 1
+        }
+
+    var maiorpreco = arraydeprecos.sort(compare).slice(-1,arraydeprecos.length)
     for (i=0; i<arguments.length;i++) {
         soma += arguments[i].preco
         if (arguments[i].preco === maiorpreco[0])
